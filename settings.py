@@ -3,6 +3,8 @@ from validation import validate_ean
 RESOURCE_METHODS = ['GET', 'POST']
 ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 
+HATEOAS = False
+
 products_schema = {
     'name': {
         'type': 'string'
