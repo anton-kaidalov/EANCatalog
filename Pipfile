@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 eve = "*"
 python-stdnum = "*"
+google-api-python-client = "*"
 
 [dev-packages]
 

@@ -24,11 +24,21 @@ products_schema = {
     }
 }
 
+bulk_import_tasks_schema = {
+    'sheet_id': {
+        'type': 'string',
+        'required': True
+    }
+}
+
 for k in products_schema:
     products_schema[k]['required'] = True
 
 DOMAIN = {
     'products': {
         'schema': products_schema
+    },
+    'bulk_import_tasks': {
+        'schema': bulk_import_tasks_schema
     }
 }
