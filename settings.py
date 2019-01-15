@@ -28,6 +28,12 @@ bulk_import_tasks_schema = {
     'sheet_id': {
         'type': 'string',
         'required': True
+    },
+    'status' : {
+        'type': 'string',
+        'required': True,
+        'allowed': ['Not started', 'In progress', 'Completed', 'Cancelled'],
+        'default': 'Not started'
     }
 }
 
