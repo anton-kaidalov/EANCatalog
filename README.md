@@ -26,6 +26,8 @@ OS prerequisites:
 * redis-server;
 * (optional) httpie utility for issuing HTTP requests. Feel free to use curl or Postman.
 
+After checkout, run `pipenv install`.
+
 Google prerequisites:
 * you'll need to have an id of a Google Sheet with products data;
 * the Google Sheet needs to be publicly accessible (for reading) by link;
