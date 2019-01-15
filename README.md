@@ -70,4 +70,5 @@ The following topics will need to be considered on the way to production:
   * Eve &mdash; enabling/disabling bulk operations, configuring filtering, limiting max request rates, etc.;
   * queue manager &mdash; timeouts, handling of failed jobs;
 * more load and stress testing (I tested the Google Sheet with 42K records, but it's definitely possible to think of more cases and scenarios).
+
 Still, I believe this project can serve as a solid base for further development.
